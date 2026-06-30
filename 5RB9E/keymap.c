@@ -40,7 +40,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TRANSPARENT, KC_F1,          KC_F2,          KC_F3,          KC_F4,          KC_F5,                                          RGB_VAD,        RGB_VAI,        DE_SLSH,        DE_ASTR,        DE_MINS,        TOGGLE_LAYER_COLOR,
     KC_TRANSPARENT, KC_PAGE_UP,     KC_BSPC,        KC_UP,          KC_DELETE,      KC_PGDN,                                        KC_TRANSPARENT, KC_7,           KC_8,           KC_9,           DE_PLUS,        RGB_TOG,        
     KC_TRANSPARENT, KC_HOME,        KC_LEFT,        KC_DOWN,        KC_RIGHT,       KC_END,                                         DE_COLN,        KC_3,           KC_5,           KC_6,           KC_DOT,         RGB_MODE_FORWARD,
-    KC_TRANSPARENT, KC_ESCAPE,      KC_TAB,         KC_INSERT,      KC_ENTER,       KC_PC_UNDO,                                     KC_0,           KC_1,           KC_2,           KC_3,           KC_COMMA,       KC_TRANSPARENT, 
+    KC_TRANSPARENT, KC_ESCAPE,      KC_TAB,         KC_INSERT,      KC_ENTER,       KC_PC_UNDO,                                     KC_0,           KC_1,           KC_2,           KC_3,           KC_COMMA,       QK_REPEAT_KEY, 
                                                     KC_TRANSPARENT, KC_TRANSPARENT,                                 KC_0,           KC_TRANSPARENT
   ),
 };
