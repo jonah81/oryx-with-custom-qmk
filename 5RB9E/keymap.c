@@ -12,15 +12,15 @@ enum custom_keycodes {
 
 
 
-#define DUAL_FUNC_0 LT(13, KC_F14)
-#define DUAL_FUNC_1 LT(6, KC_F5)
-#define DUAL_FUNC_2 LT(7, KC_7)
+#define DUAL_FUNC_0 LT(9, KC_F3)
+#define DUAL_FUNC_1 LT(8, KC_B)
+#define DUAL_FUNC_2 LT(6, KC_C)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [0] = LAYOUT_voyager(
     DUAL_FUNC_0,    KC_1,           KC_2,           KC_3,           KC_4,           KC_5,                                           DUAL_FUNC_1,    DUAL_FUNC_2,    KC_8,           KC_9,           KC_0,           TT(3),          
     KC_TAB,         KC_J,           KC_D,           KC_U,           KC_A,           KC_X,                                           KC_P,           KC_H,           KC_L,           KC_M,           KC_W,           DE_SS,          
-    MO(1),          MT(MOD_LSFT, KC_C),KC_T,           KC_I,           KC_E,           KC_O,                                           KC_B,           KC_N,           KC_R,           KC_S,           MT(MOD_RSFT, KC_G),KC_Q,           
+    MO(1),          MT(MOD_LSFT, KC_C),KC_T,           KC_I,           KC_E,           LT(2, KC_O),                                    KC_B,           KC_N,           KC_R,           KC_S,           MT(MOD_RSFT, KC_G),KC_Q,           
     KC_LEFT_CTRL,   KC_F,           KC_V,           DE_UE,          DE_AE,          DE_OE,                                          DE_Y,           DE_Z,           KC_COMMA,       KC_DOT,         KC_K,           LALT(KC_LEFT_GUI),
                                                     MT(MOD_LALT, KC_SPACE),OSM(MOD_LGUI),                                  OSM(MOD_LGUI),  LT(2, KC_BSPC)
   ),
