@@ -21,7 +21,7 @@
 #define DE_TILD ALGR(KC_RBRC)
 #define DE_GRV S(KC_EQL)
 #define DE_EXLM S(KC_1)
-#define DE_CIRC KC_GRV
+#define DE_MORE S(KC_NUBS)
 #define DE_EQL S(KC_0)
 #define DE_AMPR S(KC_6)
 #define DE_AT ALGR(KC_Q)
